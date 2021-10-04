@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgb(66,71,93),rgb(48,122,122));
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.product{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+    
+    
+}
+
+.c1{
+    height: 450px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 25px 10px rgba(0,0,0,0.35);
+    background: linear-gradient(rgb(194, 188, 187),rgb(61, 10, 7));
+}   
+
+.c2{
+    height: 450px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 25px 10px rgba(0,0,0,0.35);
+    background:linear-gradient(rgb(194, 188, 187), rgb(2, 49, 2));
+}
+
+.c3{
+    height: 450px;
+    width: 350px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 25px 10px rgba(0,0,0,0.35);
+    background:linear-gradient(rgb(194, 188, 187),rgb(1, 20, 31));
+
+}
+
+.c1 img{
+    width: 350px;
+    height: 170px;
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-45deg) translateX(-35px);
+    transition: 1.6s;
+}
+
+.c2 img{
+    width: 325px;
+    height: 160px;
+    margin-top: 105px;
+    margin-left: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-46deg) translateX(-35px);
+    transition: 1.6s;
+}
+
+.c3 img{
+    width: 370px;
+    height: 170px;
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(-45deg) translateX(-35px);
+    transition: 1.6s;
+}
+
+
+.card .info{
+    margin-left: 33px;
+    transition: 2s;
+    opacity: 0;
+}
+
+.card:hover img{
+    transform: scale(0.80,0.80) translateY(-120px) translateX(-10px);
+}
+
+.card:hover .info{
+    transform:translateY(-60px);
+    opacity: 1;
+}
+
+.c1 .info h1{
+    text-align: center;
+    color:  rgb(250, 16, 35);
+    font-size: 30px;
+    font-weight: bold;
+}
+.c1 .info p ,h3{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.bt{
+    padding: 15px 25px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 16px;
+    border:none;
+    margin-top: 10px;
+}
+
+.c1 .info .bt{
+    background-color:  rgb(238, 11, 30) ;
+}
+
+.c2 .info h1{
+    text-align: center;
+    color:  rgb(14, 226, 170) ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.c2 .info p ,h3{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.c2 .info .bt{
+    background-color:  rgb(15, 173, 131) ;
+}
+
+
+.c3 .info h1{
+    text-align: center;
+    color:  rgb(247,138,66) ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.c3 .info p ,h3{
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.c3 .info .bt{
+    background-color:  rgb(247,138,66) ;
+}
+
+.card h1,img{
+    cursor: pointer;
+}
+.card .bt:hover{
+    cursor: pointer;
+}
